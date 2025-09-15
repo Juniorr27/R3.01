@@ -65,6 +65,6 @@ if(valeur_total_comande >= min_comande){
 }
 
 /* _____________exo 8______________*/
-let binary = 1;
-let conversion = parseInt(binary);
+let binary = 10;
+let conversion = parseInt(binary,2 );
 console.log(conversion)
