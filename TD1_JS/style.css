@@ -73,3 +73,8 @@ h1{
     justify-content: center;
     align-items: center;  
 }
+#result-display {
+  text-align: center;   /* centre le texte */
+  margin-top: 20px;     /* espace au-dessus */
+  font-size: 18px;      /* un peu plus gros */
+}

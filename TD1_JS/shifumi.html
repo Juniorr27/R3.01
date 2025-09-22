@@ -1,32 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="scripts.js">
-    <title>shifumi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <title>Shifumi</title>
 </head>
 <body>
-    <h1>Shifumi</h2>
-    <main>
-        <div class="mesBtn">
-            <button class="Btn" id="feuille">Feuille</button>
-            <button  class="Btn" id="pierre">Pierre</button>
-            <button class="Btn" id="pierre">Ciseaux</button>
-        </div>
-    </main>
-    <div class="mesScore">
-        <section  id="score">
-            <p id="victoire">0 Victoire</p>
-            <p id"egal">0 égalité</p>
-            <p id="defait">0 défaite</p>
-            <button class="scoreBtn" id="reset">Réinitialiser le score</button>
-        </section>
-       
+  <h1>Shifumi</h1>
+
+  <main>
+    <div class="mesBtn">
+      <button class="Btn" id="feuille">Feuille</button>
+      <button class="Btn" id="pierre">Pierre</button>
+      <button class="Btn" id="ciseaux">Ciseaux</button>
     </div>
-    <div class="button-wrapper">
-       
-    </div>
+  </main>
+
+  <section id="result-display" aria-live="polite"></section>
+
+  <div class="mesScore">
+    <section id="score">
+      <p id="victoire">0 victoire</p>
+      <p id="egal">0 égalité</p>
+      <p id="defaite">0 défaite</p>
+      <button class="scoreBtn" id="reset">Réinitialiser le score</button>
+    </section>
+  </div>
+
+  <!-- Charger le script JS ici -->
+  <script src="scripts.js"></script>
 </body>
 </html>
